@@ -21,8 +21,8 @@ Este projeto é o backend de um sistema de gerenciamento de pessoas desenvolvido
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/sistema-gerenciamento-pessoas-backend.git
-   cd sistema-gerenciamento-pessoas-backend
+   git clone https://github.com/seu-usuario/athenas_backend.git
+   cd athenas_backend
    ```
 
 2. **Crie um ambiente virtual:**
