@@ -1,46 +1,62 @@
-Sistema de Gerenciamento de Pessoas - Backend
+### README do Backend
+
+```markdown
+# Sistema de Gerenciamento de Pessoas - Backend
+
 Este projeto é o backend de um sistema de gerenciamento de pessoas desenvolvido utilizando Django e Django REST framework. Ele fornece uma API para realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados de pessoas.
 
-Tecnologias Utilizadas
-Python 3.12
-Django 5.0
-Django REST framework
-SQLite (banco de dados padrão do Django)
-Requisitos
-Python 3.12 ou superior
-Pip (gerenciador de pacotes do Python)
-Instalação
-Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/sistema-gerenciamento-pessoas-backend.git
-cd sistema-gerenciamento-pessoas-backend
+## Tecnologias Utilizadas
+
+- Python 3.12
+- Django 5.0
+- Django REST framework
+- SQLite (banco de dados padrão do Django)
+
+## Requisitos
+
+- Python 3.12 ou superior
+- Pip (gerenciador de pacotes do Python)
+
+## Instalação
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-gerenciamento-pessoas-backend.git
+   cd sistema-gerenciamento-pessoas-backend
 Crie um ambiente virtual:
+
 bash
 Copiar código
 python -m venv venv
 Ative o ambiente virtual:
+
 No Windows:
+
 bash
 Copiar código
 venv\Scripts\activate
 No Linux/Mac:
+
 bash
 Copiar código
 source venv/bin/activate
 Instale as dependências:
+
 bash
 Copiar código
 pip install -r requirements.txt
 Configuração
-Migrations:
-Execute as migrations para criar as tabelas no banco de dados:
+Migrações:
+
+Execute as migrações para criar as tabelas no banco de dados:
 
 bash
 Copiar código
 python manage.py makemigrations
 python manage.py migrate
 Criação do Superusuário:
+
 Crie um superusuário para acessar o admin do Django:
 
 bash
@@ -48,6 +64,7 @@ Copiar código
 python manage.py createsuperuser
 Execução
 Inicie o servidor de desenvolvimento:
+
 bash
 Copiar código
 python manage.py runserver
