@@ -8,7 +8,7 @@ Este projeto é o backend de um sistema de gerenciamento de pessoas desenvolvido
 - Python 3.12
 - Django 5.0
 - Django REST framework
-- SQLite (banco de dados padrão do Django)
+- PostgreSQL
 
 ## Requisitos
 
