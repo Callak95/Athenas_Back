@@ -1,6 +1,5 @@
-### README do Backend
 
-# Sistema de Gerenciamento de Pessoas - Backend
+# Sistema de Gerenciamento de Pessoas - Backend (Athenas Test)
 
 Este projeto é o backend de um sistema de gerenciamento de pessoas desenvolvido utilizando Django e Django REST framework. Ele fornece uma API para realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados de pessoas.
 
